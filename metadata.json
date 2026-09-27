@@ -1,0 +1,6 @@
+{
+  "name": "OvraxHR",
+  "description": "OvraxHR - Comprehensive HR Aid Suite by Rheivatech - Staff Directory, Shift Roster, Attendance Analysis, Leaves & HR Planning Insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

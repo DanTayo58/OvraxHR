@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Rheivatech Signature Blue Gradient -->
+    <linearGradient id="rheivaBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e64a7" />
+      <stop offset="50%" stop-color="#1b5c9c" />
+      <stop offset="100%" stop-color="#164e86" />
+    </linearGradient>
+
+    <!-- Filter for crisp subtle drop shadow -->
+    <filter id="logoShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <g filter="url(#logoShadow)">
+    <!-- Main Outer Contour (Blue Stroke border) -->
+    <g fill="none" stroke="#1b5c9c" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Left Circuit Node & Stem Outer Contour -->
+      <path d="M 135 375 A 50 50 0 1 1 165 440 A 50 50 0 0 1 135 375 C 95 320 100 210 145 140 A 25 25 0 0 1 185 170 C 145 230 145 310 185 365" stroke-width="36" />
+      
+      <!-- Right R-Arc & Leg Outer Contour -->
+      <path d="M 170 50 C 270 15 420 25 435 150 C 445 250 350 240 255 260 L 395 445 A 25 25 0 0 1 355 475 L 210 280 C 310 250 380 230 375 150 C 365 75 250 65 170 105 A 25 25 0 0 1 170 50 Z" stroke-width="36" />
+    </g>
+
+    <!-- Middle Layer: Crisp Pure White Accent Contour -->
+    <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Left Stem White Outline -->
+      <path d="M 135 375 A 50 50 0 1 1 165 440 A 50 50 0 0 1 135 375 C 95 320 100 210 145 140 A 25 25 0 0 1 185 170 C 145 230 145 310 185 365" stroke-width="24" />
+      
+      <!-- Right R-Arc & Leg White Outline -->
+      <path d="M 170 50 C 270 15 420 25 435 150 C 445 250 350 240 255 260 L 395 445 A 25 25 0 0 1 355 475 L 210 280 C 310 250 380 230 375 150 C 365 75 250 65 170 105 A 25 25 0 0 1 170 50 Z" stroke-width="24" />
+    </g>
+
+    <!-- Inner Core: Deep Blue Solid Fill -->
+    <g fill="url(#rheivaBlue)" stroke="url(#rheivaBlue)" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Left Circuit Node Outer Ring Core -->
+      <path d="M 150 350 A 40 40 0 1 1 150 430 A 40 40 0 0 1 150 350 Z M 150 370 A 20 20 0 1 0 150 410 A 20 20 0 0 0 150 370 Z" stroke-width="0" />
+      
+      <!-- Left Stem Core -->
+      <path d="M 150 350 C 110 300 115 200 155 135 C 165 120 185 135 175 150 C 138 210 138 290 172 342 Z" stroke-width="8" />
+
+      <!-- Inner Solid Dot inside Node -->
+      <circle cx="150" cy="390" r="18" fill="url(#rheivaBlue)" />
+
+      <!-- Right R-Hook and Diagonal Leg Core -->
+      <path d="M 170 55 C 265 20 410 30 425 145 C 435 235 345 225 255 250 L 390 430 A 18 18 0 0 1 360 455 L 220 270 C 315 240 375 220 370 145 C 360 75 250 65 170 100 Z" stroke-width="12" />
+    </g>
+  </g>
+</svg>
